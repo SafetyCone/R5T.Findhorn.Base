@@ -1,9 +1,9 @@
-﻿using System;
+using System;using R5T.T0064;
 
 
 namespace R5T.Findhorn
-{
-    public interface IDataDirectoryPathProvider
+{[ServiceDefinitionMarker]
+    public interface IDataDirectoryPathProvider:IServiceDefinition
     {
         string GetDataDirectoryPath();
     }

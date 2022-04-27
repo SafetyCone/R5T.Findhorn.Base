@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Findhorn.Base.Construct
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Findhorn.Base", "R5T.Findhorn.Base\R5T.Findhorn.Base.csproj", "{77B3D90E-CB7D-4D6E-9999-1DD170239B05}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Dependencies", "_Dependencies", "{59AE3914-623A-48B1-9ADE-D0F3E2350C93}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.T0064", "..\..\R5T.T0064\source\R5T.T0064\R5T.T0064.csproj", "{848512B6-6EFF-4ED1-8A07-87398837002C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -44,5 +48,20 @@ Global
 		{77B3D90E-CB7D-4D6E-9999-1DD170239B05}.Release|x64.Build.0 = Release|Any CPU
 		{77B3D90E-CB7D-4D6E-9999-1DD170239B05}.Release|x86.ActiveCfg = Release|Any CPU
 		{77B3D90E-CB7D-4D6E-9999-1DD170239B05}.Release|x86.Build.0 = Release|Any CPU
+		{848512B6-6EFF-4ED1-8A07-87398837002C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{848512B6-6EFF-4ED1-8A07-87398837002C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{848512B6-6EFF-4ED1-8A07-87398837002C}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{848512B6-6EFF-4ED1-8A07-87398837002C}.Debug|x64.Build.0 = Debug|Any CPU
+		{848512B6-6EFF-4ED1-8A07-87398837002C}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{848512B6-6EFF-4ED1-8A07-87398837002C}.Debug|x86.Build.0 = Debug|Any CPU
+		{848512B6-6EFF-4ED1-8A07-87398837002C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{848512B6-6EFF-4ED1-8A07-87398837002C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{848512B6-6EFF-4ED1-8A07-87398837002C}.Release|x64.ActiveCfg = Release|Any CPU
+		{848512B6-6EFF-4ED1-8A07-87398837002C}.Release|x64.Build.0 = Release|Any CPU
+		{848512B6-6EFF-4ED1-8A07-87398837002C}.Release|x86.ActiveCfg = Release|Any CPU
+		{848512B6-6EFF-4ED1-8A07-87398837002C}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{848512B6-6EFF-4ED1-8A07-87398837002C} = {59AE3914-623A-48B1-9ADE-D0F3E2350C93}
 	EndGlobalSection
 EndGlobal

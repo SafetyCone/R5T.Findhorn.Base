@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Findhorn.Base", "R5T.Fi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Findhorn.Base.Construction", "R5T.Findhorn.Base.Construction\R5T.Findhorn.Base.Construction.csproj", "{3760C292-D82E-4D7E-AE6D-0190386B7C1B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Dependencies", "_Dependencies", "{24585A4D-8BAB-47E8-A17C-CA19A1504B73}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.T0064", "..\..\R5T.T0064\source\R5T.T0064\R5T.T0064.csproj", "{225A0D87-8E97-459F-902A-B13344FEFB25}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -44,5 +48,20 @@ Global
 		{3760C292-D82E-4D7E-AE6D-0190386B7C1B}.Release|x64.Build.0 = Release|Any CPU
 		{3760C292-D82E-4D7E-AE6D-0190386B7C1B}.Release|x86.ActiveCfg = Release|Any CPU
 		{3760C292-D82E-4D7E-AE6D-0190386B7C1B}.Release|x86.Build.0 = Release|Any CPU
+		{225A0D87-8E97-459F-902A-B13344FEFB25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{225A0D87-8E97-459F-902A-B13344FEFB25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{225A0D87-8E97-459F-902A-B13344FEFB25}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{225A0D87-8E97-459F-902A-B13344FEFB25}.Debug|x64.Build.0 = Debug|Any CPU
+		{225A0D87-8E97-459F-902A-B13344FEFB25}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{225A0D87-8E97-459F-902A-B13344FEFB25}.Debug|x86.Build.0 = Debug|Any CPU
+		{225A0D87-8E97-459F-902A-B13344FEFB25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{225A0D87-8E97-459F-902A-B13344FEFB25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{225A0D87-8E97-459F-902A-B13344FEFB25}.Release|x64.ActiveCfg = Release|Any CPU
+		{225A0D87-8E97-459F-902A-B13344FEFB25}.Release|x64.Build.0 = Release|Any CPU
+		{225A0D87-8E97-459F-902A-B13344FEFB25}.Release|x86.ActiveCfg = Release|Any CPU
+		{225A0D87-8E97-459F-902A-B13344FEFB25}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{225A0D87-8E97-459F-902A-B13344FEFB25} = {24585A4D-8BAB-47E8-A17C-CA19A1504B73}
 	EndGlobalSection
 EndGlobal
